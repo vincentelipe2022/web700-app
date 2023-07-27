@@ -1,0 +1,65 @@
+
+body {
+    height: 100%;   
+    width: 100%;
+    background: linear-gradient(0.25turn, #718A8E, #ebf8e1, #718A8E);
+}
+@import url('https://fonts.googleapis.com/css?family=Audiowide');
+
+th, td {
+    border:1px solid black;
+}
+.containerX{
+    display: flex;
+}
+.containerX div{
+    padding: 10px 50px;
+}
+.containerX img{
+    width: 150px;
+    height: 150px;
+}
+
+.containerX table,
+.containerX img,
+.containerX video{
+    -webkit-box-shadow: 10px 6px 10px 0px rgba(141,162,165,1);
+-moz-box-shadow: 10px 6px 10px 0px rgba(141,162,165,1);
+box-shadow: 10px 6px 10px 0px rgba(141,162,165,1);
+}
+.containerX.table tr th,
+.containerX.table tfoot{
+    background: #718A8E;
+    color: white;
+}
+
+.containerX.table tbody {
+    background: #8DA2A5;    
+    color: white;    
+}
+
+
+/* Step 3: Style Suggestions */
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Audiowide', cursive;
+}
+  
+.navbar-light .navbar-brand{
+    font-family: 'Audiowide', cursive;
+    font-size: 25px;
+    font-weight: bold;
+  }
+.bg-light {
+    background: linear-gradient(0.25turn, #718A8E, #ebf8e1, #718A8E);
+    -webkit-box-shadow: 10px 6px 10px 0px rgba(141,162,165,1);
+    -moz-box-shadow: 10px 6px 10px 0px rgba(141,162,165,1);
+    box-shadow: 10px 6px 10px 0px rgba(141,162,165,1);
+    margin-bottom: 15px;
+}
+.navbar-light .navbar-nav a.nav-link:hover {
+    color: #ebf8e1;
+    font-family: 'Audiowide', cursive;
+    font-size: 16px;
+    font-weight: bold;
+}
+
