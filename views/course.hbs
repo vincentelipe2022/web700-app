@@ -2,13 +2,13 @@
     <div class="col-md-12">
         <br>
         <h2>{{course.courseDescription}}</h2>
-        <hr />
-        <form>
+        <form method="POST" action="/course/update">
+            <input  name="courseId" type="hidden" value="{{course.courseId}}" >
             <div class="row">
                 <div class="col-md-3">
                     <div class="form-group">
                         <label for="courseDescription">Course Code</label>
-                        <input class="form-control" id="courseCode" name="courseCode" type="text" readonly
+                        <input class="form-control" id="courseCode" name="courseCode" type="text" 
                         value="{{course.courseCode}}" />
                     </div>
                 </div>
@@ -16,11 +16,11 @@
                     <div class="form-group">
                         <label for="courseDescription">Course Description</label>
                         <input class="form-control" id="courseDescription" name="courseDescription" type="text"
-                        readonly value="{{course.courseDescription}}" />
+                         value="{{course.courseDescription}}" />
+                         <input type="submit" class="btn btn-primary float-right" value="Update Course"/>
                     </div>
                 </div>
             </div>
-            <hr />
         </form>
     </div>
 </div>
